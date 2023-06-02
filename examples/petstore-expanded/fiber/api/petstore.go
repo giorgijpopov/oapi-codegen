@@ -7,6 +7,8 @@ import (
 	"fmt"
 	"net/http"
 	"sync"
+
+	"github.com/gofiber/fiber/v2"
 )
 
 type PetStore struct {

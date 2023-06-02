@@ -9,6 +9,7 @@ import (
 	"net/url"
 	"testing"
 
+	"github.com/gofiber/fiber/v2"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/giorgijpopov/oapi-codegen/examples/petstore-expanded/fiber/api"

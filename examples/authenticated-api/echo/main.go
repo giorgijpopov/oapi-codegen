@@ -7,6 +7,7 @@ import (
 
 	"github.com/giorgijpopov/oapi-codegen/examples/authenticated-api/echo/api"
 	"github.com/giorgijpopov/oapi-codegen/examples/authenticated-api/echo/server"
+	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 )
 

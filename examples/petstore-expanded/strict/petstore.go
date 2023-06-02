@@ -13,6 +13,7 @@ import (
 
 	"github.com/giorgijpopov/oapi-codegen/examples/petstore-expanded/strict/api"
 	middleware "github.com/giorgijpopov/oapi-codegen/pkg/chi-middleware"
+	"github.com/go-chi/chi/v5"
 )
 
 func main() {

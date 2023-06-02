@@ -12,7 +12,10 @@ import (
 	"testing"
 
 	"github.com/gin-gonic/gin"
+	"github.com/go-chi/chi/v5"
+	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/adaptor"
+	"github.com/labstack/echo/v4"
 	"github.com/stretchr/testify/assert"
 
 	chiAPI "github.com/giorgijpopov/oapi-codegen/internal/test/strict-server/chi"

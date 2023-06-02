@@ -8,6 +8,7 @@ import (
 	"testing"
 
 	"github.com/giorgijpopov/oapi-codegen/pkg/testutil"
+	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

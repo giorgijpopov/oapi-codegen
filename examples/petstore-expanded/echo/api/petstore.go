@@ -23,6 +23,7 @@ import (
 	"sync"
 
 	"github.com/giorgijpopov/oapi-codegen/examples/petstore-expanded/echo/api/models"
+	"github.com/labstack/echo/v4"
 )
 
 type PetStore struct {

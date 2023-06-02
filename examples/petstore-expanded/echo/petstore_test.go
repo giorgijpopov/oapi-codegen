@@ -23,6 +23,7 @@ import (
 	"github.com/giorgijpopov/oapi-codegen/examples/petstore-expanded/echo/api/models"
 	"github.com/giorgijpopov/oapi-codegen/pkg/middleware"
 	"github.com/giorgijpopov/oapi-codegen/pkg/testutil"
+	"github.com/labstack/echo/v4"
 	echoMiddleware "github.com/labstack/echo/v4/middleware"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

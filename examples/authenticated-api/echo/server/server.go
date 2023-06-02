@@ -9,6 +9,7 @@ import (
 	"github.com/getkin/kin-openapi/openapi3filter"
 	"github.com/giorgijpopov/oapi-codegen/examples/authenticated-api/echo/api"
 	"github.com/giorgijpopov/oapi-codegen/pkg/middleware"
+	"github.com/labstack/echo/v4"
 )
 
 type server struct {

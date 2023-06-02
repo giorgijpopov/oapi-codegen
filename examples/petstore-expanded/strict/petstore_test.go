@@ -10,6 +10,7 @@ import (
 	"github.com/giorgijpopov/oapi-codegen/examples/petstore-expanded/strict/api"
 	middleware "github.com/giorgijpopov/oapi-codegen/pkg/chi-middleware"
 	"github.com/giorgijpopov/oapi-codegen/pkg/testutil"
+	"github.com/go-chi/chi/v5"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
