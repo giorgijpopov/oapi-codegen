@@ -677,6 +677,7 @@ func GenFieldsFromProperties(props []Property) []string {
 
 		if !omitEmpty {
 			fieldTags["json"] = p.JsonFieldName
+			fieldTags["binding"] = "required"
 			if p.NeedsFormTag {
 				fieldTags["form"] = p.JsonFieldName
 			}
