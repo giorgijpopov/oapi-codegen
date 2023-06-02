@@ -21,6 +21,7 @@ import (
 	"text/template"
 
 	"github.com/giorgijpopov/oapi-codegen/pkg/util"
+	"github.com/labstack/echo/v4"
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 )
